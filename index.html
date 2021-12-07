@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alex Kim"/>
+    <meta name="description" content="A beautiful, responsive website showcasing fine images."/>
+    <meta name="keywords" content="Alex Kim, image, website, HTML, CSS, JavaScript"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="img/IMG_0345.png" />
+    <title>Imagely &mdash; beautiful images for you</title>
+    <style></style>
+  </head>
+  <body>
+    <header class="header" id="myHeader">
+      
+      <a href="#">
+        <img class="header-logo" alt="Imagely logo" src="img/IMG_0344.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#explore">Explore</a></li>
+          <li><a class="main-nav-link" href="#tests">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">About</a></li>
+          <li><a class="main-nav-link nav-link-button" href="#">Buy now!</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="main-heading">
+            Buy and trade some of the best images on the market!
+          </h1>
+          <p class="hero-text">
+            These are some of the finest images you will ever see. These amazing images are worth millions of dollars! (No screenshotting allowed!)
+          </p>
+        
+        </div>
+        <div class="hero-img-box">
+          <img class="hero-img" src="img/nft-project-header-small.webp" alt="cool image of an NFT"/>
+      </div>
+    </section>
+
+    <section class="section-images" id="explore">
+      <div class="container">
+      <h2 class="images-header">
+        Take a look at these beauties
+      </h2>
+    </div>
+    <div class="images-grid">
+      <div class="image-yes">
+        <img src="img/nft-cube.png" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">Rubiks Cube</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Limited edition</span>
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>6 sided cube</span>
+
+            </li>
+            <div class="image-price">
+              <strong>$7.49</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="image-yes">
+        <img src="img/nft-dog-small.webp" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">A dog</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Very cute</span>
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>It's a dog</span>
+            </li>
+            <div class="image-price">
+              <strong>$420.00</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>
+        </div>
+      </div>
+      <div class="image-yes">
+        <img src="img/nft-sus-small.webp" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">Sus Imposter</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Sussy amogus</span>
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>4K display</span>
+            </li>
+            <div class="image-price">
+              <strong>$1.00</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>
+        </div>
+      </div>
+      <div class="image-yes">
+        
+        <img src="img/nft-weirdo-small.webp" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">Random NFT</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Took 100+ hours to make</span>
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Nice shade of blue</span>
+            </li>
+            <div class="image-price">
+              <strong>$129.99</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>
+        </div>
+      </div>
+      <div class="image-yes">
+        <img src="img/nft-weirdo2-small.webp" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">Random NFT</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>Amazing</span>
+
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>It's just amazing</span>
+            </li>
+            <div class="image-price">
+              <strong>$2,000,000</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>
+        </div>
+        
+      </div>
+      <div class="image-yes">
+        <img src="img/nft-zoro-small.webp" class="image" alt="Image of an NFT"/>
+        <div class="image-content">
+          <p class="image-title">Roronoa Zoro</p>
+          <ul class="image-attributes">
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>3 sword style</span>
+            </li>
+            <li class="image-attribute">
+              <ion-icon class="attribute-icon" name="arrow-forward-outline"></ion-icon>
+              <span>life-size image</span>
+            </li>   
+            <div class="image-price">
+              <strong>$749.99</strong>
+              <a href="#" class="btn btn--small">Add to cart</a>
+            </div>   
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="section-featured-in">
+      <div class="container">
+        <h2 class="featured-heading">As seen on</h2>
+        <div class="logos">
+          <img class="featured-logo" src="img/forbes.png" alt="Forbes logo" />
+          
+          <img class="featured-logo" src="img/business-insider.png" alt="Business Insider logo" />
+          <img class="featured-logo" src="img/techcrunch.png" alt="Techcrunch logo" />
+          <img class="featured-logo" src="img/wall-street.png" alt="Wall Street Journal logo" />
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <h2 class="why-header">
+        Why choose us?
+      </h2>
+      <div class="container why-grid">
+        <div class="why-feature">
+          <ion-icon class="why-icon" name="card-outline"></ion-icon>
+          <p class="why-title">
+            Safe and secure
+          </p>
+          <p class="why-text">
+            Our state of the art money depositing technology
+             will ensure your safety from frauds and scams.
+          </p>
+        </div>
+        <div class="why-feature">
+          <ion-icon class="why-icon" name="flash-outline"></ion-icon>
+          <p class="why-title">
+            Fast deliveries
+          </p>
+          <p class="why-text">
+            Any images you purchase will be delivered
+             to you in minutes via email.
+          </p>
+        </div>
+        <div class="why-feature">
+          <ion-icon class="why-icon" name="image-outline"></ion-icon>
+          <p class="why-title">
+            High quality images
+          </p>
+          <p class="why-text">
+            All images are high quality. 
+            If an image doesn't meet our expectation, it won't be on our site.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-testimonials" id="tests">
+      <h2 class="testimonial-header">
+        What people think about us
+      </h2>
+      <div class="slider container">
+        <div class="slide">
+          <div class="testimonial">
+            <h3 class="testimonial-title">"Amazing customer service!"</h3>
+            <blockquote class="testimonial-text">
+              I had trouble purchasing my image. After calling customer service, my
+              issue was resolved in minutes. The person on the line - David, was very nice and orderly, and listened
+              to my problems. He wasn't rude, blunt etc. 
+            </blockquote>
+            <div class="testimonial-bottom">
+              <address class="testimonial-author">
+               
+                <h6 class="testimonial-name">Poopity Poop</h6>
+                <p class="testimonial-location">Chicago, USA</p>
+              </address>
+              <div class="stars">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h3 class="testimonial-title">"These images are so pretty!"</h3>
+            <blockquote class="testimonial-text">
+              I bought a couple of these images for my family. They are very
+              beautiful! I hung them up around the house, and they fit in 
+              with my aesthetic perfectly. Couldn't ask for a better 
+              product than this! I will for-sure buy more.
+            </blockquote>
+            <div class="testimonial-bottom">
+              <address class="testimonial-author">
+               
+                <h6 class="testimonial-name">Tori Kim</h6>
+                <p class="testimonial-location">Cary, USA</p>
+              </address>
+              <div class="stars">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h3 class="testimonial-title">"Would buy again for sure!"</h3>
+            <blockquote class="testimonial-text">
+              At first, I bought one image that I thought was really pretty. 
+              After opening it, I couldn't believe my eyes. I bought the "Sus Imposter" one and
+              it was super cute. These images are great to put on any room.
+            </blockquote>
+            <div class="testimonial-bottom">
+              <address class="testimonial-author">
+               
+                <h6 class="testimonial-name">Mr. Charles</h6>
+                <p class="testimonial-location">Las Vegas, USA</p>
+              </address>
+              <div class="stars">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="testimonial">
+            <h3 class="testimonial-title">"Best financial decision ever!"</h3>
+            <blockquote class="testimonial-text">
+              I ordered some images, with the hopes to resell. My idea worked wonders!
+              I never expected the demand for these images to be so high. I'll probably buy some more
+              just to keep. If you want to resell these images, do it quick. Supply will likely run out.
+            </blockquote>
+            <div class="testimonial-bottom">
+            <address class="testimonial-author">
+             
+              <h6 class="testimonial-name">Joshua Choi</h6>
+              <p class="testimonial-location">Munich, Germany</p>
+            </address>
+            <div class="stars">
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        </div>
+    </section>
+<footer class="footer">
+  <div class="footer-links">
+    <a class="footer-link" href="#">About</a>
+    <a class="footer-link" href="#">Contact us</a>
+    <a class="footer-link" href="#">Privacy policy</a>
+    <a class="footer-link" href="#">Careers</a>
+    <a class="footer-link" href="#">Resources</a>
+  </div>
+  <div class="copyright">
+    Made by Alex Kim
+  </div>
+</footer>
+  </body>
+</html>
