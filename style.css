@@ -524,3 +524,9 @@ body {
     font-size: 40%;
   }
 }
+@media (max-width: 20em) {
+  html {
+    font-size: 35%;
+  }
+}
+
