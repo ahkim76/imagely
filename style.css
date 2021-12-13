@@ -503,6 +503,9 @@ body {
 
 /* 504 px */
 @media (max-width: 34em) {
+  .hero {
+    gap: 2.4rem;
+  }
   .logos {
     width: 50%;
     justify-content: center;
